@@ -55,7 +55,7 @@ class WarningPopUp extends StatelessWidget {
         clipBehavior: Clip.hardEdge,
         child: Container(
           constraints: BoxConstraints.expand(
-              width: size.width * 0.5, height: size.height * 0.2),
+              width: size.width * 0.8, height: size.height * 0.2),
           color: Colors.white,
           padding: EdgeInsets.symmetric(horizontal: 10,vertical: 3),
           alignment: Alignment.topRight,
